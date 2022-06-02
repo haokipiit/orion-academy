@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  text-align: center;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+.navbar .container .navbar-brand img {
+  width: 5rem;
+}
+#letter {
+    margin-top: 10rem;   
+}
+@media (max-width: 768px) {
+  #letter {
+    padding: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  #letter {
+    margin-top: 12rem;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+ 
