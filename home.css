@@ -66,6 +66,9 @@
   #reference form {
     margin-top: 2rem;
   }
+  #footer a:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
 }
 #course-offer {
   margin-top: 4rem;
