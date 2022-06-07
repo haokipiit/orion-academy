@@ -19,6 +19,11 @@
 #form h1 {
     margin-bottom: 3rem;
 }
+#form label {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
 #form input {
     text-align: left;
 }
@@ -36,7 +41,7 @@
 @media (max-width: 768px) {
     #form {
         width: 80vw;
-        height: 70vh;
+        height: 60vh;
         padding: 2rem;
     }   
 }

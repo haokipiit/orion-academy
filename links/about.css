@@ -36,6 +36,8 @@
 #feedback form label {
   text-align: left;
   float: left;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 #feedback input,
 #feedback textarea {
