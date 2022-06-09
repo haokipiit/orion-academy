@@ -4,6 +4,8 @@ const lName = document.getElementById("lastname");
 const city = document.getElementById("city");
 const pincode = document.getElementById("pincode");
 const district = document.getElementById("district");
+const email = document.getElementById("email");
+const phone = document.getElementById("phone");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -19,6 +21,8 @@ form.addEventListener("submit", (e) => {
     city.value = "";
     pincode.value = "";
     district.value = "";
+    email.value = "";
+    phone.value = "";
     return;
   } else {
     const submitted = document.createElement("div");
@@ -31,5 +35,7 @@ form.addEventListener("submit", (e) => {
     city.value = "";
     pincode.value = "";
     district.value = "";
+    email.value = "";
+    phone.value = "";
   }
 });
