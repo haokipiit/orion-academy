@@ -11,8 +11,8 @@
 #form {
     margin-top: 10rem;
     margin-bottom: 8rem;
-    height: 90vh;
-    width: 30vw;
+    height: 880px;
+    width: 600px;
     padding: 5rem;
     padding-top: 4rem;
 }
@@ -28,7 +28,7 @@
     text-align: left;
 }
 #form .alert {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 @media (max-width: 1024px) {
     #form {
