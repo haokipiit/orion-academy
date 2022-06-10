@@ -41,7 +41,7 @@
 @media (max-width: 768px) {
     #form {
         width: 80vw;
-        height: 88vh;
-        padding: 2rem;
+        height: 820px;
+        padding: 1.5rem;
     }   
 }
