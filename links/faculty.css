@@ -87,7 +87,10 @@
   #faculty .teachers .teacher .details p {
     font-weight: 400;
     font-size: 1.4rem;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
+  }
+  #faculty .teachers .teacher .details .degree, .subject {
+    margin-top: -0.4rem;
   }
 }
 @media (max-width: 768px) {
@@ -113,16 +116,19 @@
     height: 118px;
   }
   #faculty .teachers .teacher .details {
-    padding: 0.4rem;
+    padding: 0.5rem;
   }
   #faculty .teachers .teacher .details .name {
     font-weight: 800;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
   }
   #faculty .teachers .teacher .details p {
     font-weight: 800;
     font-size: 1rem;
     line-height: 1.3rem;
+  }
+  #faculty .teachers .teacher .details .degree, .subject {
+    margin-top: -0.6rem;
   }
 }
