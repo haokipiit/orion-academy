@@ -109,19 +109,21 @@
   }
   #faculty .teachers .teacher {
     margin-top: 1rem;
-    height: 140px;
+    height: 150px;
+    padding: 0;
+  }
+  #faculty .teachers .teacher .photo {
+    padding: 1rem;
   }
   #faculty .teachers .teacher .photo img {
     width: 90px;
     height: 118px;
-  }
-  #faculty .teachers .teacher .details {
-    padding: 0.5rem;
+    margin-left: -1.1rem;
   }
   #faculty .teachers .teacher .details .name {
     font-weight: 800;
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
   }
   #faculty .teachers .teacher .details p {
     font-weight: 800;
