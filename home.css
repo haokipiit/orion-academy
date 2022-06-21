@@ -31,6 +31,12 @@
   [id="carouselExampleIndicators"] {
     min-width: 100%;
   }
+  .nav li {
+    display: block;
+  }
+  .navbar {
+    margin-top: 5rem;
+  }
   #course .row {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
