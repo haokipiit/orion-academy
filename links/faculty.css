@@ -14,20 +14,22 @@
 }
 #faculty #title {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: bold;
+  font-size: 3rem;
   border-bottom: 1px solid black;
   padding: 1rem;
 }
 #faculty h1 {
   font-size: 2rem;
   margin-top: 4rem;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 #faculty .teachers {
   margin: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 #faculty .teacher {
   height: 180px;
@@ -53,9 +55,16 @@
   padding: 0.5rem;
 }
 #faculty .teachers .teacher .photo img {
+  height: 155px;
+  width: 100px;
+}
+#faculty .teachers .teacher .photo img {
   width: 150px;
 }
 @media (max-width: 1024px) {
+  #faculty #extra {
+    margin-top: -2rem;
+  }
   #faculty .teachers .teacher {
     margin-top: 1.3rem;
     height: 140px;
@@ -87,6 +96,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+  #faculty h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
   #faculty .teachers {
     display: flex;
     flex-direction: column;
@@ -96,7 +109,8 @@
     height: 140px;
   }
   #faculty .teachers .teacher .photo img {
-    width: 80px;
+    width: 90px;
+    height: 118px;
   }
   #faculty .teachers .teacher .details {
     padding: 0.4rem;
@@ -104,11 +118,11 @@
   #faculty .teachers .teacher .details .name {
     font-weight: 800;
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 1.3rem;
   }
   #faculty .teachers .teacher .details p {
     font-weight: 800;
     font-size: 1rem;
-    line-height: 0.7rem;
+    line-height: 1.3rem;
   }
 }
