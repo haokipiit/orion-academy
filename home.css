@@ -11,6 +11,9 @@
 .navbar .container .navbar-brand img {
   width: 5rem;
 }
+.carousel {
+  margin-top: 12rem;
+}
 @media (max-width: 1366px) {
   /* For mobile phones: */
   [id="carouselExampleIndicators"] {
@@ -35,7 +38,10 @@
     display: block;
   }
   .navbar {
-    margin-top: 5rem;
+    margin-top: 0;
+  }
+  #carouselExampleIndicators {
+    margin-top: 9rem;
   }
   #course .row {
     display: grid;
@@ -75,6 +81,9 @@
   #footer a:hover {
     color: rgba(255, 255, 255, 0.7);
   }
+  #map {
+    margin-top: 1rem;
+  }
 }
 #course-offer {
   margin-top: 4rem;
@@ -85,9 +94,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-}
-.carousel {
-  margin-top: 12rem;
 }
 .card .card-link .card-body a {
   text-decoration: none;
